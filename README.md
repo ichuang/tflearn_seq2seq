@@ -159,3 +159,11 @@ The output gives:
 which, again, is close (but not exact).
 
 Better results could probably be obtained by using a more complex model, e.g. with larger LSTM cells, or more layers, or more training.
+
+Testing
+=======
+
+Unit tests are provided, implemented using [pytest](http://doc.pytest.org/en/latest/).  Run these using:
+
+    py.test tflearn_seq2seq.py
+
