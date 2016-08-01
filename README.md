@@ -167,3 +167,10 @@ Unit tests are provided, implemented using [pytest](http://doc.pytest.org/en/lat
 
     py.test tflearn_seq2seq.py
 
+Extensions
+==========
+
+This example does not demonstrate machine translation per se, but the
+basic structure could be extended to do so.  No buckets or other such
+sophistications are used; this makes it easier to understand the
+basics.
