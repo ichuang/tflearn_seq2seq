@@ -51,8 +51,6 @@ Basic Usage
                               [--tensorboard-verbose TENSORBOARD_VERBOSE]
                               cmd [cmd_input [cmd_input ...]]
     
-    usage: %prog [command] [args...] ...
-    
     Commands:
     
     train - give size of training set to use, as argument
