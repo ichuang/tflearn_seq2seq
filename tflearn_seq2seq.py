@@ -304,8 +304,7 @@ def CommandLine(args=None, arglist=None):
     '''
     Main command line.  Accepts args, to allow for simple unit testing.
     '''
-    help_text = """usage: %prog [command] [args...] ...
-
+    help_text = """
 Commands:
 
 train - give size of training set to use, as argument
