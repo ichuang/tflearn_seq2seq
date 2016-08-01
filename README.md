@@ -102,7 +102,7 @@ This command trains an embedding_attention seq2seq RNN on 100,000
 input sequences, using the "reversed" pattern (for which the output
 sequence is the reverse of the input sequence), using 10 epochs:
 
-    python tflearn_seq2seq.py -v -v -o weights.tfl -p reversed -m embedding_attention --iter-num=0 -e 10 train 100000
+    python tflearn_seq2seq.py -v -v -o weights.tfl -p reversed -m embedding_attention -e 10 train 100000
 
 Note that 10% of the training dataset is set aside for validation.
 The output should be something like this:
