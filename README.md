@@ -165,6 +165,13 @@ Unit tests are provided, implemented using [pytest](http://doc.pytest.org/en/lat
 
     py.test tflearn_seq2seq.py
 
+Installation
+============
+
+# Requires TF 0.10 or better (does not work with TF 0.9)
+# Requires TFLEARN installed from github (PIP repository has version 0.2.1 that does not work with TF 0.10)
+# "pip install hd5py" to avoid runtime wanring: "hdf5 not supported (please install/reinstall h5py)"
+
 Extensions
 ==========
 
