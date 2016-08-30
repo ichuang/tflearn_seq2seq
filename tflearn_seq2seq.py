@@ -365,7 +365,7 @@ predict - give input sequence as argument (or specify inputs via --from-file <fi
         if args.from_file:
             inputs = json.loads(args.from_file)
         try:
-            input_x = map(int, args.cmd_input)
+            input_x = list(map(int, args.cmd_input))
             inputs = [input_x]
         except:
             raise Exception("Please provide a space-delimited input sequence as the argument")
