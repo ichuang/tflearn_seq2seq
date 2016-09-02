@@ -5,6 +5,8 @@ Pedagogical example of sequence to sequence recurrent neural network
 with [TensorFlow](https://www.tensorflow.org/) and
 [TFLearn](http://tflearn.org/).
 
+(Also see: [Pedagogical example of wide and deep learning](https://github.com/ichuang/tflearn_wide_and_deep))
+
 This code provides a complete, pegagogical, working example of a
 seq2seq RNN, implemented using [TFLearn](http://tflearn.org/), which
 transforms input sequences of integers, to output sequences of
